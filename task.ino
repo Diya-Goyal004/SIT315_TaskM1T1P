@@ -33,6 +33,6 @@ void loop() {
     Serial.println("LED Status: OFF");
   }
 
-  // Add a short delay to avoid reading the sensor too quickly
+  // Delay to avoid reading the sensor too quickly
   delay(500);
 }
